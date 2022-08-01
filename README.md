@@ -1,5 +1,5 @@
 # Unity-echo3D-Demo-WeaponWrangler
-Swap out 3D weapons using a space bar
+Swap out 3D weapons using a space bar.
 
 ## Version
 [Unity 2021.2.7](https://unity3d.com/get-unity/download/archive)
@@ -18,7 +18,7 @@ Don't have an echo3D API key? Make sure to register for FREE at [echo3D](https:/
 ![Hierarchy](https://user-images.githubusercontent.com/99516371/176975148-ccec86c5-c322-41f9-9cbb-509e1a613e2a.png)
 
 ## Run
-Press Play in Unity and hit the space bar to swap out the weapons
+Press Play in Unity and hit the space bar to swap out the weapons.
 
 ## Learn more
 Refer to our [documentation](https://docs.echo3D.co/unity/) to learn more about how to use Unity and echo3D.
