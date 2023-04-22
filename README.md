@@ -1,21 +1,23 @@
 # Unity-echo3D-Demo-WeaponWrangler
 Swap out 3D weapons using a space bar.
 
-## Version
-[Unity 2021.2.7](https://unity3d.com/get-unity/download/archive)
-
-## Register
-Don't have an echo3D API key? Make sure to register for FREE at [echo3D](https://console.echo3D.co/#/auth/register).
+## Setup
+* Built with [Unity 2021.2.7](https://unity3d.com/get-unity/download/archive) (Note: The echo3D Unity SDK is supported in 2020.3.25 and higher.).
+* [Register](https://www.echo3d.com/signup?utm_term={keyword}&utm_campaign=weapons_tutorial&utm_source=medium&utm_medium=blog) for FREE at echo3D.
+* [Add the Unity SDK in Unity](https://docs.echo3d.com/unity/installation).
+* Clone this repo to view the sample project. The SDK has already been installed. Just upload the models to the echo3D console and add the API key and entry IDs (see below).
 
 ## Setup
-* Clone this [repo](https://github.com/echo3Dco/Unity-echo3D-Demo-WeaponWrangler/).
-* [Install the echo3D Unity SDK](https://docs.echo3D.co/unity/installation).
-* [Add the assets](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Unity 'Models' folder.
-* Uncheck the [Security](https://docs.echo3d.co/web-console/deliver-pages/security-page) box in your console.
-* Open the _SampleScene_ scene.
-* [Add the API key](https://docs.echo3D.co/unity/using-the-sdk) and entry ID for each object in the Inspector.
-![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/175661063-031a0d62-af0f-4335-be12-b73317527e54.png)
-![Hierarchy](https://user-images.githubusercontent.com/99516371/176975148-ccec86c5-c322-41f9-9cbb-509e1a613e2a.png)
+* Download the 3D model(s) from the Models folder in the project.
+* Go to echo3D console and click ["Add to Cloud"](https://docs.echo3d.co/quickstart/add-a-3d-model) and upload the models.
+* Open the "SampleScene" scene.
+* [Set the API keys](https://docs.echo3d.co/quickstart/access-the-console) for the complimentary asset on the objects in the Hierarchy using the Inspector: Gatling, Sword, Revolver.
+<br>![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/233753895-f131b565-3a5a-4e18-862f-a6017b29f315.png)<br>
+![NEWEnterAPIKey](https://user-images.githubusercontent.com/99516371/233753903-247c4b30-7b19-4810-9d39-ecfbfe161791.gif)
+* If you have your secret key enabled, [add the security key](https://docs.echo3d.co/web-console/deliver-pages/security-page) for each project to the Global.cs script as well.
+* (Recommended) Preview and edit the echo3D asset in real time.
+To move, resize or edit the parent object for assets in Scene view, check the boxes for [“Editor Preview”](https://docs.echo3d.com/unity/hologram-script-settings#experimental-editor-preview) and [“Ignore Model Transforms”](https://docs.echo3d.com/unity/hologram-script-settings#ignore-model-transforms) on the echo3D script in Inspector. 
+To enable this, click Echo3D > Load Editor Holograms in your Unity toolbar. 
 
 ## Run
 Press Play in Unity and hit the space bar to swap out the weapons.
