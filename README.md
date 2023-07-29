@@ -3,8 +3,7 @@ Swap out 3D weapons using a space bar.
 
 ## Setup
 * Built with [Unity 2021.2.7](https://unity3d.com/get-unity/download/archive) (Note: The echo3D Unity SDK is supported in 2020.3.25 and higher.).
-* [Register](https://www.echo3d.com/signup?utm_term={keyword}&utm_campaign=weapons_tutorial&utm_source=medium&utm_medium=blog) for FREE at echo3D.
-* [Add the Unity SDK in Unity](https://docs.echo3d.com/unity/installation).
+* [Register](https://www.echo3d.com/signup?utm_term={keyword}&utm_campaign=weapons_tutorial&utm_source=github&utm_medium=repository) for FREE at echo3D.
 * Clone this repo to view the sample project. The SDK has already been installed. Just upload the models to the echo3D console and add the API key and entry IDs (see below).
 
 ## Setup
